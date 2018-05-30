@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 106.3 177.17" version="1.1">
+  <defs id="defs4">
+    <style id="style6" type="text/css">.fil2 {fill:#FEFEFE}
+    .fil1 {fill:#27576D}
+    .fil0 {fill:#7AA3B0}
+    .fil3 {fill:#27576D;fill-rule:nonzero}</style>
+    <style id="style5339" type="text/css">.fil0 {fill:#1B1C1F}
+    .fil1 {fill:#1B1C1F;fill-rule:nonzero}</style>
+  </defs>
+  <g id="layer1" transform="translate(0 -875.2)">
+    <g id="g6332" transform="matrix(20.609 0 0 20.609 -123.42 -20026)">
+      <rect id="rect6265" transform="translate(0 875.2)" ry=".49107" height="5.6821" width="2.9042" stroke="#262626" y="141.18" x="7.1973" stroke-width=".45" fill="none"/>
+      <g id="g6298" transform="translate(-.013376)" fill="#262626">
+        <rect id="rect6267" ry=".32645" height="1.7411" width="2.0131" y="1016.9" x="7.6562"/>
+        <g id="g6287" transform="translate(.013253)" fill-rule="evenodd">
+          <path id="path6269" transform="translate(-.022321 874.98)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6271" transform="translate(.71429 874.98)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6273" transform="translate(1.4286 874.98)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6275" transform="translate(-.022321 875.8)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6277" transform="translate(.69196 875.8)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6279" transform="translate(1.4286 875.8)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6281" transform="translate(-.022321 876.59)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6283" transform="translate(.66964 876.59)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+          <path id="path6285" transform="translate(1.4286 876.59)" d="m8.2143 144.62a0.26786 0.26786 0 1 1 -0.53571 0 0.26786 0.26786 0 1 1 0.53571 0z"/>
+        </g>
+      </g>
+      <path id="path6311" d="m7.8125 1016.2v-1.2947" stroke="#262626" stroke-linecap="round" stroke-width=".6" fill="none"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>mobile-phone</dc:title>
+        <dc:date>2013-03-19T13:54:46</dc:date>
+        <dc:description>black, cell, clip art, clipart, icon, mobile, phone, </dc:description>
+        <dc:source>http://openclipart.org/detail/176378/mobile-phone-by-svm-176378</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>svm</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>black</rdf:li>
+            <rdf:li>cell</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>mobile</rdf:li>
+            <rdf:li>phone</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
