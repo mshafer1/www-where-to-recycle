@@ -1,5 +1,25 @@
 ---
-layout: default
-title: By State
+layout: data
+title: By States 
 ---
 
+<div id="data">
+
+</div>
+<script>
+    data = "<ul>";
+    states.sort();
+    console.log(states);
+    states.forEach(function(state) {
+        console.log("data: " + state.name)
+        data += "<li>{0}<br/><ol>".format(state.name)
+        state.towns.sort()
+        state.towns.forEach(function(site) {
+            console.log("Town: " + site.town + "\n\tSubdomain: " + site.subdomain)
+            data += "<li><a href=\"http://{0}.wheretorecycle.net\">{1}</a></li><br/>".format(site.subdomain, site.town)
+        })
+        data += "</ol></li>"
+    });
+    data += "</ul>";
+    document.getElementById("data").innerHTML = data;
+</script>

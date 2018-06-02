@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Where to Recycle | {{ page.title }}</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-78286880-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        var states = [
+            {name: "Arkansas", towns: 
+                [
+                    {town: "Searcy", subdomain: "searcyAR"}
+                ]
+            }];
+        //from http://stackoverflow/a/20729945
+        String.prototype.format = function() {
+            var str = this;
+            for (var i = 0; i < arguments.length; i++) {
+                var reg = new RegExp("\\{" + i + "\\}", "gm");
+                str = str.replace(reg, arguments[i]);
+            }
+            return str;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>WhereToRecycle.Net</h1>
+    <ul class="w3-navbar w3-large w3-deep-orange w3-left-align">
+        <li class="w3-hide-medium w3-hide-large w3-deep-orange w3-opennav w3-right">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        </li>
+        <li><a class="w3-hover-light-green" href="/">Home</a></li>
+        <li class=" w3-hide-small"><a class="w3-hover-light-green" href="/alphabetical">Alphabetical</a></li>
+        <li class=" w3-hide-small"><a class="w3-hover-light-green" href="/states">By State</a></li>
+        <li class=" w3-hide-small"><a class="w3-hover-light-green" href="/reproduce">Reproduce This for YOUR Area!!!</a></li>
+    </ul>
+
+    <div id="demo" class="w3-hide w3-hide-large w3-hide-medium">
+        <ul class="w3-navbar w3-left-align w3-large w3-deep-orange">
+            <li><a class="w3-hover-light-green" href="/alphabetical">Alphabetical</a></li>
+            <li><a class="w3-hover-light-green" href="/states">By State</a></li>
+            <li><a class="w3-hover-light-green" href="/reproduce">Reproduce This for YOUR Area!!!</a></li>
+        </ul>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").classList.toggle("w3-show");
+        }
+    </script>
+    </ul>
+    {{ content }}
+</body>
+
+</html>

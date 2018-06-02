@@ -1,0 +1,30 @@
+---
+layout: data
+title: Alphabetical 
+---
+
+<div id="data">
+
+</div>
+<script>
+    data = "<ul>";
+    town_list = {}
+    console.log(states);
+    states.forEach(function(state) {
+        console.log("data: " + state.name)
+        state.towns.forEach(function(site) {
+            town_list["{0}, {1}".format(site.town, state.name)] = site.subdomain;
+        })
+    });
+    //console.log(town_list);
+    
+    keys = Object.keys(town_list);
+    keys.sort()
+    console.log(keys);
+    keys.forEach(function(key) {
+    console.log(key);
+    data += "<li><a href=\"http://{0}.wheretorecycle.net\">{1}</a></li><br/>".format(town_list[key], key)
+    });
+    data += "</ul>";
+    document.getElementById("data").innerHTML = data;
+</script>
